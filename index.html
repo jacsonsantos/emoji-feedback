@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji FeedBack</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/emoji-feedback.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+        }
+
+        .container {
+            width: 80%;
+            height: 700px;
+            margin: auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+        h1 {
+            padding: 10px;
+            font-size: 1.8rem;
+            border-bottom: 1px solid #4e4e4e;
+        }
+        .content {
+            width: 350px;
+            margin: auto;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container text-center">
+        <h1>Emoji FeedBack</h1>
+        <div class="content">
+            <div><i class="far fa-star fa-2x"></i> Your Feedback here</div>
+            <div class="feedback"></div>
+        </div>
+    </section>
+    <script src="dist/js/emoji-feedback.js"></script>
+    <script>
+
+        let far = [
+            {name: 'fa-meh-blank', value: 1},
+            {name: 'fa-meh', value: 2},
+            {name: 'fa-smile ', value: 3},
+            {name: 'fa-grin', value: 4},
+            {name: 'fa-grin-alt', value: 5}
+        ];
+
+        let def = [
+            {name: 1, value: 1},
+            {name: 2, value: 2},
+            {name: 3, value: 3},
+            {name: 4, value: 4},
+            {name: 5, value: 5}
+        ];
+
+        let feedback = new Feedback();
+
+        let option = {
+            type: 'fontawesome',
+            items: far,
+            url: `${location.origin}/feedback`
+        };
+
+        feedback.option(option);
+
+        feedback.show();
+
+    </script>
+</body>
+</html>
