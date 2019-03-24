@@ -84,6 +84,14 @@ class Feedback {
         if (this._option.url !== undefined) {
             this.url = this._option.url;
         }
+
+        if (this._option.request !== undefined) {
+            this.request = this._option.request;
+        }
+
+        if (this._option.response !== undefined) {
+            this.response = this._option.response;
+        }
     }
 
     click(func) {

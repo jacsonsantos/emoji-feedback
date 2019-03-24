@@ -41,12 +41,11 @@ feedback.option(option);
 feedback.show();
 ```
 Option
----
-param | description
-----------------
-items | List of object with *name* and *value*
----------
-url |
 
-
-type: 'fontawesome'
+| param  | description  |
+|---|---|
+|  items |  List of object with *name* and *value* |
+|  url | Endpoint for request POST   |
+|  type | Type: *default* or *fontawesome*  |
+|  request | Function  |
+|  response | Function  |
