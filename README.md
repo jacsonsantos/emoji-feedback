@@ -50,7 +50,11 @@ let feedback = new Feedback();
 feedback.option(option);
 feedback.show();
 ```
-Option
+**Result**
+
+![default](emoji-defualt.png)
+
+**Option**
 
 | param  | description  |
 |---|---|
@@ -59,3 +63,26 @@ Option
 |  type | Type: *default* or *fontawesome*  |
 |  request | Function  |
 |  response | Function  |
+
+### Using Fontawesome
+
+```javascript
+let option = {
+    type: 'fontawesome',
+    items: [
+       {name: 'fa-meh-blank', value: 1},
+       {name: 'fa-meh', value: 2},
+       {name: 'fa-smile ', value: 3},
+       {name: 'fa-grin', value: 4},
+       {name: 'fa-grin-alt', value: 5}
+    ],
+    url: `${location.origin}/feedback`
+};
+
+let feedback = new Feedback();
+feedback.option(option);
+feedback.show();
+```
+**Result**
+
+![fontawesome](emoji-fontawesome.png)

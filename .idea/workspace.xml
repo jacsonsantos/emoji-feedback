@@ -4,6 +4,7 @@
     <list default="true" id="fa1b20ac-da28-4541-87f1-430ade5e242c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="367">
+              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -28,11 +29,14 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="293">
-                <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <first_editor relative-caret-position="119">
+                <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
                 <folding>
-                  <marker date="1553443351266" expanded="true" signature="597:798" ph="{&quot;type&quot;: 'fontawesome'...}" />
-                  <marker date="1553443351266" expanded="true" signature="610:756" ph="[...]" />
+                  <marker date="1553443902218" expanded="true" signature="597:798" ph="{&quot;type&quot;: 'fontawesome'...}" />
+                  <marker date="1553443902218" expanded="true" signature="610:756" ph="[...]" />
+                  <marker date="1553443902218" expanded="true" signature="1209:1483" ph="{&quot;type&quot;: 'fontawesome'...}" />
+                  <marker date="1553443902218" expanded="true" signature="1209:1485" ph="{&quot;url&quot;: `${location.origin}/feedback`...}" />
+                  <marker date="1553443902218" expanded="true" signature="1247:1443" ph="[...]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -81,9 +85,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dist/css/emoji-feedback.css" />
         <option value="$PROJECT_DIR$/dist/js/emoji-feedback.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -131,12 +135,6 @@
               <item name="emoji-feedback" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="emoji-feedback" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emoji-feedback" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,12 +168,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553394158110</updated>
       <workItem from="1553394159603" duration="15870000" />
-      <workItem from="1553436007857" duration="5493000" />
+      <workItem from="1553436007857" duration="6043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21363000" />
+    <option name="totallyTimeSpent" value="21913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
@@ -235,14 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/emoji-feedback.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -264,14 +254,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <first_editor relative-caret-position="119">
+            <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
             <folding>
-              <marker date="1553443351266" expanded="true" signature="597:798" ph="{&quot;type&quot;: 'fontawesome'...}" />
-              <marker date="1553443351266" expanded="true" signature="610:756" ph="[...]" />
+              <marker date="1553443902218" expanded="true" signature="597:798" ph="{&quot;type&quot;: 'fontawesome'...}" />
+              <marker date="1553443902218" expanded="true" signature="610:756" ph="[...]" />
+              <marker date="1553443902218" expanded="true" signature="1209:1483" ph="{&quot;type&quot;: 'fontawesome'...}" />
+              <marker date="1553443902218" expanded="true" signature="1209:1485" ph="{&quot;url&quot;: `${location.origin}/feedback`...}" />
+              <marker date="1553443902218" expanded="true" signature="1247:1443" ph="[...]" />
             </folding>
           </first_editor>
           <second_editor />
