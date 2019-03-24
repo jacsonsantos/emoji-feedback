@@ -9,12 +9,22 @@ Style
 ```html
 <link rel="stylesheet" href="dist/css/emoji-feedback.css">
 ```
+OR
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jacsonsantos/emoji-feedback/master/dist/css/emoji-feedback.css">
+```
 
 Script
 
 ```html
 <script src="dist/js/emoji-feedback.js"></script>
 ```
+OR
+```html
+<script src="https://raw.githubusercontent.com/jacsonsantos/emoji-feedback/master/dist/js/emoji-feedback.js"></script>
+```
+
+
 
 HTML
 
